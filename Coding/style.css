@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #242427;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding-top: 250px;
+}
+
+
+/********** Navbar *********/
+
+
+/* backup
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'livvic', sans-serif;
+}
+
+body {
+    background: #232323;
+    min-height: 200vh;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 4px 100px;
+    z-index: 10000;
+}
+
+header.sticky {
+    padding: 5px 100px;
+    background: #954329;
+}
+
+header .logo {
+    position: relative;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #FFF;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/dragon_poster.jpg);
+    background-size: cover;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+    color: #FFF;
+}
+
+
+
+
+
+
+*/
+
+#mainNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 150px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #242427;
+    transition: background 0.4s;
+    box-sizing: border-box;
+}
+
+#mainNav .logo img {
+    height: 60px;
+    transition: height 0.4s;
+}
+
+#mainNav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 650px;
+    justify-content: space-around;
+}
+
+#mainNav ul li a {
+    text-decoration: none;
+    color: #d6d6d6;
+    font-weight: 600;
+    transition: color 0.4s;
+    float: left;
+    font-size: 23px;
+    font-family: 'livvic';
+    text-shadow: 0 2px 6px #292828;
+}
+
+.bg-black {
+    background: #424244 !important;
+    filter: drop-shadow(0 5px 15px rgb(24, 23, 23));
+}
+
+.txt-white a {
+    color: #d6d6d6 !important;
+}
+
+
+/*------------- Navbar Responsive ---------------*/
+
+
+/* after all done */
+
+
+/********** Section Home *********/
+
+.home-section {
+    padding: 20px 0;
+    min-height: 100vh;
+}
+
+.home-section .home-text {
+    color: #d6d6d6;
+    float: left;
+    justify-content: space-around;
+    font-family: 'livvic';
+}
+
+.home-text {
+    padding-top: 50px;
+}
+
+.home-section .home-text p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.home-section .home-text h6 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.home-section .home-text h1 {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+
+/*-- ICON --*/
+
+.media a {
+    font-size: 35px;
+    color: #d6d6d6;
+    padding: 5px;
+}
+
+.fa-github {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.fa-youtube {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.fa-instagram {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+
+/*-- button --*/
+
+.btn {
+    margin: 10px 0;
+}
+
+button {
+    background: #f58f7c;
+    display: block;
+    border: none;
+    width: 140px;
+    height: 45px;
+    font-family: 'livvic';
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 50px;
+    color: #242427;
+    float: left;
+}
+
+
+/*-- Image --*/
+
+.home-section .home-img {
+    display: flex;
+    flex: 0 0 50%;
+    float: right;
+}
+
+.home-section .home-img .img-box {
+    max-width: 450px;
+    display: block;
+    margin: 0 20px;
+}
+
+.home-section .home-img .img-box img {
+    width: 300px;
+    margin: 20px 0;
+    height: 300px;
+    border-radius: 50%;
+    float: right;
+}
+
+
+/********** Section About *********/
+
+.about-section {
+    width: 50%;
+    margin: auto;
+}
+
+.about-section .about h2 {
+    font-family: 'livvic', sans-serif;
+    color: #d6d6d6;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section .about .introduc {
+    padding: 30px;
+    background-color: #3F3F40;
+    font-size: 20px;
+    font-family: 'livvic', sans-serif;
+    color: #d6d6d6;
+    border-radius: 35px;
+    margin: 50px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/*--- Section hoobies ---*/
+
+.hobbies-section {
+    width: 60%;
+    margin: auto;
+}
+
+.hobbies h2 {
+    font-family: 'livvic', sans-serif;
+    color: #d6d6d6;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* hoobies 1 */
+
+.hobbie-1 {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.hobbie-img img {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.hobbie-txt {
+    padding: 10px 20px;
+    font-family: 'livvic', sans-serif;
+    color: #d6d6d6;
+}
+
+.hobbie-txt h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.hobbie-txt p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* hoobies 2 */
+
+.hobbie-2 {
+    padding: 20px;
+    display: flex;
+    float: right;
+}
+
+.hobbie-txt2 {
+    padding: 10px 20px;
+    font-family: 'livvic', sans-serif;
+    color: #d6d6d6;
+}
+
+.hobbie-txt2 h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.hobbie-txt2 p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hobbie-2 h3 {
+    text-align: end;
+}
+
+
+/* hoobies 3 */
+
+.hobbie-3 {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+}
+
+
+/*--- Section Skills ---*/
+
+.skills {
+    width: 50%;
+    margin: auto;
+}
+
+.skills h2 {
+    font-family: 'livvic', sans-serif;
+    color: #d6d6d6;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.skill-name {
+    margin-top: 20px;
+    background-color: #f58f7c;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    float: left;
+}
+
+.skill-name h3 {
+    padding-top: 5px;
+    font-family: 'livvic', sans-serif;
+    color: #242427;
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+}
+
+.skill-list {
+    margin: 10px 0;
+    padding: 25px 0;
+    width: 300px;
+    background-color: #242427;
+    box-shadow: 0 10px 20px rgb(24, 23, 23);
+    border-radius: 15px;
+    float: left;
+}
+
+.skill-list img {
+    padding-top: 10px;
+    margin: 0 10px;
+    width: 55px;
+}
+
+.skill-icon {
+    padding: 20px;
+}
+
+
+/* skill 2 */
+
+.skill-2 {
+    float: right;
+}
+
+.skill-name2 {
+    margin-top: 20px;
+    background-color: #f58f7c;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.skill-name2 h3 {
+    padding-top: 5px;
+    font-family: 'livvic', sans-serif;
+    color: #242427;
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+}
+
+.skill-list2 {
+    background-color: #242427;
+    box-shadow: 0 10px 20px rgb(24, 23, 23);
+    width: 300px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+/********** Clear Fix *********/
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
